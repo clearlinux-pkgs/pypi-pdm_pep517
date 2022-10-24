@@ -4,7 +4,7 @@
 #
 Name     : pypi-pdm_pep517
 Version  : 1.0.5
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/2d/59/15ff8715a14fb26fec56a0d66f7a53d27e5d14a550fc12fefd446fc74684/pdm-pep517-1.0.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/2d/59/15ff8715a14fb26fec56a0d66f7a53d27e5d14a550fc12fefd446fc74684/pdm-pep517-1.0.5.tar.gz
 Summary  : A PEP 517 backend for PDM that supports PEP 621 metadata
