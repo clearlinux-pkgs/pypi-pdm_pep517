@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-pdm_pep517
-Version  : 1.1.3
-Release  : 19
-URL      : https://files.pythonhosted.org/packages/d6/d7/bee6e16a0a5e93f38f2f8224183ea6c36cfde1ee93cf5e941f1d6cdb20cf/pdm-pep517-1.1.3.tar.gz
-Source0  : https://files.pythonhosted.org/packages/d6/d7/bee6e16a0a5e93f38f2f8224183ea6c36cfde1ee93cf5e941f1d6cdb20cf/pdm-pep517-1.1.3.tar.gz
+Version  : 1.1.4
+Release  : 20
+URL      : https://files.pythonhosted.org/packages/43/42/5c8818b70fc4b25c99e56aeeb3484ede076114c8a0772675b44a3b7891cc/pdm-pep517-1.1.4.tar.gz
+Source0  : https://files.pythonhosted.org/packages/43/42/5c8818b70fc4b25c99e56aeeb3484ede076114c8a0772675b44a3b7891cc/pdm-pep517-1.1.4.tar.gz
 Summary  : A PEP 517 backend for PDM that supports PEP 621 metadata
 Group    : Development/Tools
 License  : Apache-2.0 BSD-2-Clause CC-BY-4.0 ISC MIT
@@ -51,10 +51,10 @@ python3 components for the pypi-pdm_pep517 package.
 
 
 %prep
-%setup -q -n pdm-pep517-1.1.3
-cd %{_builddir}/pdm-pep517-1.1.3
+%setup -q -n pdm-pep517-1.1.4
+cd %{_builddir}/pdm-pep517-1.1.4
 pushd ..
-cp -a pdm-pep517-1.1.3 buildavx2
+cp -a pdm-pep517-1.1.4 buildavx2
 popd
 
 %build
@@ -62,7 +62,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679586087
+export SOURCE_DATE_EPOCH=1681314216
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
